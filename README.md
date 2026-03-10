@@ -8,9 +8,10 @@ Características
 * **Ejecución Local:** Procesa archivos de texto plano localmente, ideal para tareas programadas (cron jobs) de monitoreo en la infraestructura.
 
 Uso
-1. Descarga el archivo `analizador_logs.py` y el archivo de prueba `auth.log` en la misma carpeta.
+1. Descarga el archivo `analizar_logs.py` y el archivo de prueba `auth.log` en la misma carpeta.
 2. Ejecuta el script desde tu terminal: python3 Analizar_logs.py
 3. El script leerá el archivo de muestra y arrojará las alertas correspondientes sobre las IPs simuladas que rebasaron el límite de intentos.
 
 Entorno de Implementación
+
 Desarrollado para la administración segura de infraestructura y servidores. Este tipo de scripts es fundamental para la supervisión de nodos de red expuestos y la respuesta a incidentes en tiempo real, facilitando el trabajo del equipo de soporte y operaciones IT.
